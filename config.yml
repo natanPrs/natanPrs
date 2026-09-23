@@ -69,4 +69,6 @@ languages:
     - "CSS"
     - "Shell"
     - "Makefile"
+    - "JavaScript"
+    - "Procfile"
   max_display: 8               # Maximum number of languages to show
