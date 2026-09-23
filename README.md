@@ -19,26 +19,3 @@
 <div align="center">
   <img src="./assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
 </div>
-
-<br/>
-
-<details>
-<summary><strong>More about me</strong></summary>
-
-<br/>
-
-Building Scalable Systems for Fintechs
-
-**Currently at** Nubank — São Paulo, BR
-</details>
-
-<br/>
-
-<div align="center">
-  <a href="mailto:nyx@stellarlabs.dev">
-    <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/nyxorion/">
-    <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
-  </a>
-</div>
