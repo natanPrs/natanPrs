@@ -1,37 +1,19 @@
-# Galaxy Profile README Configuration
-# Copy this file to config.yml and customize it to make it your own!
-#
-# Usage:
-#   cp config.example.yml config.yml
-#   # Edit config.yml with your details
-#   python -m generator.main
-#
-# Demo mode (no API calls, uses this file directly):
-#   python -m generator.main --demo
-
-# Your GitHub username (required)
 username: natanPrs
 
-# Profile information displayed in the galaxy header
 profile:
   name: "natan's galaxy"
   tagline: "Full Stack Developer & Open Source Explorer"
   company: "Nubank"
   location: "São Paulo, BR"
   bio: |
-    Building tools that make developers' lives easier.
-    Passionate about distributed systems, developer experience, and the open-source ecosystem.
+    Building Scalable Systems for Fintechs.
   philosophy: '"Even as ordinary people; we can achieve the extraordinary through effort."'
 
-# Social links displayed at the bottom of the profile
 social:
   email: "natan.swe@gmail.com"
   linkedin: "https://www.linkedin.com/in/natanprs/"
   website: "https://github.com/natanPrs"
 
-# Galaxy arms represent your core focus areas
-# Each arm spirals out from the center with its own color and tech items
-# Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
 galaxy_arms:
   - name: "Data Layer"
     color: "dendrite_violet"
@@ -54,11 +36,6 @@ galaxy_arms:
       - "RabbitMQ"
       - "Kafka"
 
-# Featured projects shown as constellation stars
-# Each project needs:
-#   repo: "owner/repo-name"   — GitHub repository path
-#   arm: 0-2                  — Which galaxy arm to associate with (index)
-#   description: "..."        — Short description shown on the card
 projects:
   - repo: "natanPrs/mytems-user-manager"
     arm: 0
@@ -67,8 +44,6 @@ projects:
     arm: 1
     description: "Microservices-based banking ecosystem featuring asynchronous communication, transaction processing, and a distributed architecture designed for scalability and decoupling."
 
-# Theme color overrides (optional — defaults to deep space palette)
-# All values must be valid hex color codes (#RRGGBB)
 theme:
   void: "#080c14"              # Darkest background
   nebula: "#0f1623"            # Card backgrounds
@@ -80,7 +55,6 @@ theme:
   text_dim: "#94a3b8"          # Secondary text
   text_faint: "#64748b"        # Muted text, labels
 
-# Stats configuration — which metrics to show on the telemetry card
 stats:
   metrics:
     - "commits"
@@ -89,7 +63,6 @@ stats:
     - "issues"
     - "repos"
 
-# Language display settings
 languages:
   exclude:                     # Languages to hide from the telemetry chart
     - "HTML"
