@@ -71,4 +71,5 @@ languages:
     - "Makefile"
     - "JavaScript"
     - "Procfile"
+    - "Python"
   max_display: 8               # Maximum number of languages to show
